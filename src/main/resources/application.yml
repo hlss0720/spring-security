@@ -1,0 +1,20 @@
+
+server:
+  port: 8888
+  
+spring:
+  thymeleaf:
+   cache: false
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/spring_security?useUnicode=true&characterEncoding=UTF-8
+logging:
+  level:
+      org.springframework.security: info
+    
+    
